@@ -1,0 +1,85 @@
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent; 
+}
+.contenedor-B {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;     
+    gap: 20px;               
+    height: 530px; 
+    margin-top: 20px;
+    width: 100%;
+}
+body {
+    background-image: url('../image_ea64a4.jpg'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Times New Roman', serif;
+}
+.item-2 { 
+    background-color: #1a203f; 
+    border-radius: 50px;
+    padding: 15px 40px;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+} 
+.item-2 p {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.item-1 h1 {
+    color: white;
+    font-size: 70px; 
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap; /* Evita por completo que el texto se rompa hacia abajo */
+}
+.item-3 { 
+    background-color: white; 
+    border-radius: 50px;
+    padding: 12px 45px;
+} 
+.item-3 p {
+    margin: 0;
+    color: #1a203f;
+    font-weight: bold;
+    font-size: 18px;
+    white-space: nowrap;
+}
+.itemB-3 { 
+    background-color: transparent;
+    max-width: 650px; 
+} 
+.itemB-3 p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* BOTÓN INFERIOR - Cápsula naranja */
+.itemB-1 { 
+    background-color: #e4732b; 
+    border-radius: 50px;
+    padding: 14px 40px;
+}
+.itemB-1 p {
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
